@@ -1,0 +1,23 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4000/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Development": {
+      "commandName": "IISExpress",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:4000/",
+      "environmentVariables": {
+        "JWT_SECRET": "FLEURY@2018#Docker"
+      }
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": ""
+  }
+}

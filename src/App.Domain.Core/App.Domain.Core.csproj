@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ProjectGuid>{12c67894-989c-4678-8947-164e529e63b6}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Bus\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Events\" />
+    <Folder Include="Notifications\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="gft.fleury.Pepilines.Interfaces" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>

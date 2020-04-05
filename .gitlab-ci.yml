@@ -1,0 +1,4 @@
+include:
+ - project: 'pipeline/repo-default'
+   ref: "dotnet-2.2"
+   file: '.gitlab-ci.yml'
